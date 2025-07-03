@@ -1,0 +1,96 @@
+Create a complete, UI-only Medicine Selling Web App using **Next.js**, **React**, and **Tailwind CSS**, with full **PWA support** (manifest.json + service worker). The app should mimic platforms like Tata 1MG, NetMeds, and PharmEasy, designed to be installable, responsive, and mobile-first.
+
+🧱 Tech Stack:
+- Next.js (latest)
+- React (with hooks)
+- Tailwind CSS
+- Progressive Web App (manifest.json + service worker)
+- Dummy JSON for products, categories, and user data (no backend)
+- Google Fonts or medical-safe font pairing
+- Icons via Heroicons or Lucide
+
+---
+
+📱 Pages / Components (UI Only):
+
+### 1. Authentication
+- Login/Signup (Email, Google OAuth [mock], Mobile OTP [UI only])
+- Forgot Password & Reset UI
+- Welcome animation or splash screen
+
+### 2. Homepage
+- Hero banner (sliding offers)
+- Highlight: Top Categories (Diabetes, Fever, Cough, Vitamins, etc.)
+- “Shop by Concern” cards (Skin, Hair, Women's Health, etc.)
+- Featured Medicines
+- Doctor Consultation (UI only CTA card)
+- Health Packages & Lab Tests (optional sections)
+
+### 3. Medicine Search & Listing
+- Search bar with auto-suggest
+- Filters: Category, Price range, Brand, Prescription required
+- Sort: Popularity, Price, Newest
+- Tags: “Top Rated”, “Best Seller”, “Prescription Only”
+- Product Cards:
+  - Name, image, brand, composition, price, discount, and availability
+  - Add to Cart or Buy Now
+
+### 4. Product Details
+- Full info: composition, dosage, side effects, usage instructions
+- Similar medicines section
+- Offers (e.g., "10% off with PayTM")
+- Prescription upload (UI only)
+- Pin-code availability check
+
+### 5. Cart Page
+- All added items with qty control and subtotal
+- Delivery estimate, shipping charges, total
+- Checkout button with login gate if not signed in
+
+### 6. Address Management
+- Add/Edit Address: Full form with map UI (Google Maps embed or mock)
+- Save address as Home/Work/Other
+- Pin location on map UI
+- Option to choose saved address on checkout
+
+### 7. Order Flow
+- Order Confirmation Page (UI only)
+- Previous Orders:
+  - Order ID, date, status, items summary, reorder button
+- Download invoice (UI only button)
+
+### 8. User Profile
+- View/update name, phone, email
+- Manage addresses
+- Logout
+- View saved items (wishlist)
+
+### 9. Navigation
+- Sticky top navigation: Logo, search, cart, login/profile
+- Mobile bottom nav: Home, Categories, Orders, Cart, Profile
+
+---
+
+🎨 Visual Aesthetic:
+- Clean, clinical design using whites, blues, and greens
+- Mobile-first layout with full responsiveness
+- Use real medicine placeholder images and icons
+- Smooth animations with Framer Motion or Tailwind transitions
+- Accessibility features: ARIA labels, keyboard navigation, semantic HTML
+
+---
+
+📦 PWA Essentials:
+- manifest.json (app name, icons, theme color)
+- service worker for offline caching
+- Install prompt on mobile
+- App shell loading layout
+
+---
+
+✅ Final Notes:
+- UI Only, no backend or API integration
+- Use local JSON or mock services
+- Ensure clean code structure with reusable components
+- No admin panel or inventory management needed
+
