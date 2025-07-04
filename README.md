@@ -1,99 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
 
-<h1>💊 MedicineMart - Online Pharmacy & Lab Test Booking</h1>
+<h1>🧪 MedicineMart - Online Medicine & Lab Test Booking</h1>
 
-<p>A modern, responsive web application where users can search for medicines, add them to a cart, place orders, and book lab tests—all in one place.</p>
+<p>A full-featured React + TypeScript application to search and order medicines, manage your cart, and book lab tests — all from a modern, responsive interface.</p>
 
 <h2>🌟 Features</h2>
 
-<h3>🛒 Medicine Shopping</h3>
+<h3>🛒 Medicine Ordering</h3>
 <ul>
-  <li>Search and browse a wide variety of medicines</li>
-  <li>Add items to cart and view cart details</li>
-  <li>Place orders seamlessly</li>
+  <li>Search for medicines by name</li>
+  <li>View detailed medicine info</li>
+  <li>Add medicines to cart</li>
+  <li>Adjust quantity in cart</li>
+  <li>Place order directly</li>
 </ul>
 
-<h3>🔬 Lab Test Booking</h3>
+<h3>🧬 Lab Test Booking</h3>
 <ul>
-  <li>Explore and book lab tests</li>
-  <li>Responsive design optimized for all devices</li>
+  <li>Search for available lab tests</li>
+  <li>Book test appointments</li>
+  <li>Responsive booking interface</li>
 </ul>
 
-<h3>🧠 Smart Features</h3>
+<h3>🧠 Smart UI/UX</h3>
 <ul>
-  <li>Debounced search input for medicine lookup</li>
-  <li>Form validations for booking & checkout</li>
-  <li>Notifications and error handling</li>
+  <li>Fully responsive design</li>
+  <li>Animated components using Framer Motion</li>
+  <li>Iconography via Lucide and React Icons</li>
+</ul>
+
+<h2>🛠️ Technical Features</h2>
+
+<ul>
+  <li>React with TypeScript</li>
+  <li>Vite for fast builds and development</li>
+  <li>Tailwind CSS for utility-first styling</li>
+  <li>React Hook Form + Zod for form validation</li>
+  <li>React Helmet for SEO handling</li>
 </ul>
 
 <h2>🚀 Getting Started</h2>
 
-<h3>📦 Prerequisites</h3>
+<h3>Prerequisites</h3>
 <ul>
-  <li>Node.js (v16 or above)</li>
+  <li>Node.js (v16 or higher)</li>
   <li>npm or yarn</li>
 </ul>
 
-<h3>⚙️ Installation</h3>
-<pre><code>git clone https://github.com/S-Khan786/medicinemart.git
-cd medicinemart/client
+<h3>Installation</h3>
+<pre><code>git clone https://github.com/S-Khan786/medicine-mart.git
+cd medicine-mart/client
 npm install
 # or
 yarn install</code></pre>
 
-<h3>▶️ Running the Application</h3>
+<h3>Running the App Locally</h3>
 <pre><code>npm run dev
 # or
 yarn dev</code></pre>
 
-<h2>🔧 Technologies Used</h2>
+<h3>Production Build</h3>
+<pre><code>npm run build
+# or
+yarn build</code></pre>
+
+<h2>🧰 Tech Stack</h2>
 <ul>
-  <li><strong>React</strong> - UI library</li>
-  <li><strong>Vite</strong> - Fast build tool</li>
-  <li><strong>Tailwind CSS</strong> - Utility-first CSS framework</li>
+  <li><strong>React + TypeScript</strong> - Frontend framework</li>
+  <li><strong>Vite</strong> - Blazing-fast bundler</li>
+  <li><strong>Tailwind CSS</strong> - Utility-first styling</li>
   <li><strong>Framer Motion</strong> - Smooth animations</li>
-  <li><strong>Zod</strong> - Schema validation</li>
+  <li><strong>Zod</strong> - Type-safe schema validation</li>
   <li><strong>React Hook Form</strong> - Form management</li>
-  <li><strong>Lucide Icons</strong> - Icon set</li>
 </ul>
 
-<h2>🗂️ Folder Structure</h2>
+<h2>🎨 UI Components</h2>
+
+<h3>🔍 Medicine Search</h3>
 <ul>
-  <li><code>src/components/</code> - Reusable UI components</li>
-  <li><code>src/pages/</code> - Page views (Home, Cart, Tests, etc.)</li>
-  <li><code>src/hooks/</code> - Custom hooks</li>
-  <li><code>src/lib/</code> - Utilities and configuration</li>
+  <li>Live search bar</li>
+  <li>Results with add-to-cart buttons</li>
+</ul>
+
+<h3>🧺 Cart Management</h3>
+<ul>
+  <li>Increment/decrement quantity</li>
+  <li>Remove medicines from cart</li>
+  <li>Checkout functionality</li>
+</ul>
+
+<h3>🧪 Lab Test Section</h3>
+<ul>
+  <li>Search and view lab tests</li>
+  <li>Booking interface with validation</li>
 </ul>
 
 <h2>📱 Responsive Design</h2>
-<p>Fully responsive and mobile-friendly layout:</p>
 <ul>
-  <li>Mobile: stacked cards for browsing</li>
-  <li>Tablet/Desktop: grid views with sidebar</li>
+  <li>Desktop: Full-featured layout</li>
+  <li>Tablet: Collapsible menus and adaptive grids</li>
+  <li>Mobile: Clean, touch-friendly UI</li>
 </ul>
 
 <h2>🛡️ Error Handling</h2>
 <ul>
-  <li>Client-side form validation</li>
-  <li>Clear error messages for API failures</li>
-  <li>Loading and fallback states</li>
+  <li>Form validation with helpful messages</li>
+  <li>Network request error states</li>
+  <li>Empty state UI</li>
 </ul>
 
-<h2>✅ Features Coming Soon</h2>
-<ul>
-  <li>Authentication (Login/Register)</li>
-  <li>Order history and tracking</li>
-  <li>Admin panel for managing stock</li>
-</ul>
+<h2>🔗 Live Demo</h2>
+<p><a href="https://medicine-mart-app.netlify.app" target="_blank">🌐 View Deployed App</a></p>
 
-<h2>📃 License</h2>
-<p>This project is licensed under the MIT License - see the <code>LICENSE</code> file for details.</p>
+<h2>📁 Project Structure</h2>
+<pre><code>
+client/
+├── src/
+│   ├── components/      # UI components
+│   ├── pages/           # Route-based components
+│   ├── context/         # Global context providers
+│   ├── data/            # Static or mock data
+│   ├── hooks/           # Custom React hooks
+│   ├── lib/             # Utilities and API logic
+│   ├── main.tsx         # App entry point
+│   └── App.tsx          # Root component
+├── public/
+├── index.html
+├── package.json
+├── tailwind.config.ts
+├── vite.config.ts
+</code></pre>
 
 </body>
 </html>
